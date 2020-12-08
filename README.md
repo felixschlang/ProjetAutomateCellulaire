@@ -10,14 +10,10 @@ la console vous demandera ensuite de rentrer 4 listes de 4 valeurs (entre 0 et 1
 Chaque liste est composée de la même façon :
 Le premier élément est la probabilité de rester le même couple, le deuxième est la probabilité que la deuxième cellule d’un couple change, le troisième est la probabilité que les deux cellules changent et le dernier est la probabilité que la première cellule change.
 Donc les listes sont de cette forme :
-Pour les couple Noirs-Blancs :
-[P(NB->NB), P(NB->NN), P(NB->BN), P(NB->BB)]
-Pour les couples Noirs-Noirs :
-[P(NN->NN), P(NN->NB), P(NN->BB), P(NN->NB)]
-Pour les couples Blancs-Noirs :
-[P(BN->BN), P(BN->BB), P(BN->NB), P(BN->NN)]
-Pour les couples Blancs-Blancs :
-[P(BB->BB), P(BB->BN), P(BB>NN), P(BB->NB)]
+- Pour les couple Noirs-Blancs : [P(NB->NB), P(NB->NN), P(NB->BN), P(NB->BB)]
+- Pour les couples Noirs-Noirs : [P(NN->NN), P(NN->NB), P(NN->BB), P(NN->NB)]
+- Pour les couples Blancs-Noirs :[P(BN->BN), P(BN->BB), P(BN->NB), P(BN->NN)]
+- Pour les couples Blancs-Blancs: [P(BB->BB), P(BB->BN), P(BB>NN), P(BB->NB)]
 
 Une fois la grille apparut, 3 choix sont à votre disposition :
 •	Le premier est pour activer au hasard un nombre aléatoirement choisie de cellule :
