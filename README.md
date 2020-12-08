@@ -16,15 +16,15 @@ Donc les listes sont de cette forme :
 - Pour les couples Blancs-Blancs: [P(BB->BB), P(BB->BN), P(BB>NN), P(BB->NB)]
 
 Une fois la grille apparut, 3 choix sont à votre disposition :
-•	Le premier est pour activer au hasard un nombre aléatoirement choisie de cellule :
-•	Le Second est pour lancer la simulation
-•	Le Dernier est pour stopper la simulation 
+- Le premier est pour activer au hasard un nombre aléatoirement choisie de cellule :
+- Le Second est pour lancer la simulation
+- Le Dernier est pour stopper la simulation 
 Vous pouvez stopper pui rependre la simulation en appuyant sur second bouton. Il est également possible de cliquer sur une cellule de la grille pour l’activer.
 
 ## Exemple 
 
 Si vous rentrer les probabilité suivante
-"NB":[0.5,0.5,0,0],"NN":[1,0,0,0],"BN":[0.5,0,0,0.5],"BB":[1,0,0,0]
+- "NB":[0.5,0.5,0,0],"NN":[1,0,0,0],"BN":[0.5,0,0,0.5],"BB":[1,0,0,0]
 Il y aura une diffusion des cellules noirs(infecté) avec un probabilité d’infecté son autre cellule du couple de 0.5. Un couple infecté reste infecté et un couple sain reste sain.
 Après une génération de cellules infecté, si la simulation est lancé on voit apparaitre des « cluster »
 Ce processus est long car dans notre code nous choisissons aléatoirement un couple sur lequel la transition va être appliquer (manque de temps pour coder une façon plus efficace de choisir ce couple
