@@ -9,7 +9,7 @@ la console vous demandera ensuite de rentrer 4 listes de 4 valeurs (entre 0 et 1
 - La quatrième liste est celle pour les couples Blancs-Blancs
 
 Chaque liste est composée de la même façon :
-Le premier élément est la probabilité de rester le même couple, le deuxième est la probabilité que la deuxième cellule d’un couple change, le troisième est la probabilité que les deux cellules changent et le dernier est la probabilité que la première cellule change.
+Le premier élément est la probabilité de rester le même couple, le deuxième est la probabilité que la deuxième cellule d’un couple change, le troisième est la probabilité que les deux cellules changent et le dernier est la probabilité que la première cellule change (la somme de ces quatres proba doit faire 1).
 Donc les listes sont de cette forme :
 - Pour les couple Noirs-Blancs : [P(NB->NB), P(NB->NN), P(NB->BN), P(NB->BB)]
 - Pour les couples Noirs-Noirs : [P(NN->NN), P(NN->NB), P(NN->BB), P(NN->NB)]
