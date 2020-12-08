@@ -7,6 +7,7 @@ la console vous demandera ensuite de rentrer 4 listes de 4 valeurs (entre 0 et 1
 - La deuxième liste est celle pour les couples Noirs-Noirs
 - La troisième liste est celle pour les couples Blancs-Noirs
 - La quatrième liste est celle pour les couples Blancs-Blancs
+
 Chaque liste est composée de la même façon :
 Le premier élément est la probabilité de rester le même couple, le deuxième est la probabilité que la deuxième cellule d’un couple change, le troisième est la probabilité que les deux cellules changent et le dernier est la probabilité que la première cellule change.
 Donc les listes sont de cette forme :
